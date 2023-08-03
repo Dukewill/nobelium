@@ -93,6 +93,25 @@ class MyDocument extends Document {
           <link rel="manifest" href="/manifest.json" />
           <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="/feed"></link>
           <script type="text/javascript" src="/fav.js"></script>
+
+          <script
+            async
+            src={`https://www.googletagmanager.com/gtag/js?id=UA-97574220-1`}
+          />
+          <script
+            dangerouslySetInnerHTML={{
+              __html: `
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'UA-97574220-1', {
+  page_path: window.location.pathname,
+});
+`,
+            }}
+          />
+          <script type="text/javascript" src="/cp.js" />
+
           {config.appearance === 'auto'
             ? (
               <>
@@ -121,7 +140,7 @@ class MyDocument extends Document {
         </Head>
         <body className="bg-day dark:bg-night">
           <Main />
-          
+
           <NextScript />
 
         </body>
