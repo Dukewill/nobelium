@@ -136,8 +136,8 @@ gtag('config', 'UA-97574220-1', {
         </Head>
         <body className="bg-day dark:bg-night">
           <Main />
-          <NextScript />
           <script type="text/javascript" src="/fav.js"></script>
+          <NextScript />
           <script type="text/javascript" src="/cp.js"></script>
         </body>
       </Html>
