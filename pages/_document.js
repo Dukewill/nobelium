@@ -91,7 +91,6 @@ class MyDocument extends Document {
           <link color="#000000" rel="mask-icon" href="https://fastly.jsdelivr.net/npm/dukewill@0.0.19/images/Logo-DS-black-circle.svg" />
           <link rel="icon" type="image/png" sizes="192x192" href="https://fastly.jsdelivr.net/npm/dukewill@0.0.19/images/favicon-192.png" />
           <link rel="manifest" href="/manifest.json" />
-
           <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="/feed"></link>
           {config.appearance === 'auto'
             ? (
@@ -121,8 +120,9 @@ class MyDocument extends Document {
         </Head>
         <body className="bg-day dark:bg-night">
           <Main />
-          <script type="text/javascript" src="/fav.js"></script>
+          {/* <script type="text/javascript" src="/fav.js"></script> */}
           <NextScript />
+
         </body>
       </Html>
     )
