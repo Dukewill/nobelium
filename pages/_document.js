@@ -91,23 +91,7 @@ class MyDocument extends Document {
           <link color="#000000" rel="mask-icon" href="https://fastly.jsdelivr.net/npm/dukewill@0.0.19/images/Logo-DS-black-circle.svg" />
           <link rel="icon" type="image/png" sizes="192x192" href="https://fastly.jsdelivr.net/npm/dukewill@0.0.19/images/favicon-192.png" />
           <link rel="manifest" href="/manifest.json" />
-          <script
-            async
-            src={`https://www.googletagmanager.com/gtag/js?id=UA-97574220-1`}
-          />
-          <script
-            dangerouslySetInnerHTML={{
-              __html: `
-window.dataLayer = window.dataLayer || [];
-function gtag(){dataLayer.push(arguments);}
-gtag('js', new Date());
-gtag('config', 'UA-97574220-1', {
-  page_path: window.location.pathname,
-});
-`,
-            }}
-          />
-          <script type="text/javascript" src="/cp.js" />
+
           <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="/feed"></link>
           {config.appearance === 'auto'
             ? (
