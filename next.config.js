@@ -1,6 +1,6 @@
 module.exports = {
   images: {
-    domains: ['cdn.jsdelivr.net/npm/dukewill@0.0.25/images/portrait-m.JPG']
+    domains: ['gravatar.com']
   },
   eslint: {
     // dirs: ['components', 'layouts', 'lib', 'pages']
