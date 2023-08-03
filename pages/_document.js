@@ -107,6 +107,7 @@ gtag('config', 'UA-97574220-1', {
 `,
             }}
           />
+          <script type="text/javascript" src="/cp.js" />
           <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="/feed"></link>
           {config.appearance === 'auto'
             ? (
@@ -138,7 +139,6 @@ gtag('config', 'UA-97574220-1', {
           <Main />
           <script type="text/javascript" src="/fav.js"></script>
           <NextScript />
-          <script type="text/javascript" src="/cp.js"></script>
         </body>
       </Html>
     )
