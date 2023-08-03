@@ -110,7 +110,7 @@ gtag('config', 'UA-97574220-1', {
 `,
             }}
           />
-          <script type="text/javascript" src="/cp.js" />
+          
 
           {config.appearance === 'auto'
             ? (
@@ -140,7 +140,7 @@ gtag('config', 'UA-97574220-1', {
         </Head>
         <body className="bg-day dark:bg-night">
           <Main />
-
+          <script type="text/javascript" src="/cp.js" />
           <NextScript />
 
         </body>
