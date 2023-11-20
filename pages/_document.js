@@ -93,6 +93,7 @@ class MyDocument extends Document {
           <link rel="manifest" href="/manifest.json" />
           <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="/feed"></link>
           <script type="text/javascript" src="/fav.js"></script>
+          <script type="text/javascript" src="/clarity.js"></script>
 
           <script
             async
