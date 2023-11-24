@@ -95,10 +95,10 @@ class MyDocument extends Document {
           <script type="text/javascript" src="/fav.js"></script>
           <script type="text/javascript" src="/clarity.js"></script>
 
-          <script
+          {/* <script
             async
             src={`https://www.googletagmanager.com/gtag/js?id=UA-97574220-1`}
-          />
+          /> */}
           <script
             dangerouslySetInnerHTML={{
               __html: `
@@ -111,7 +111,7 @@ gtag('config', 'UA-97574220-1', {
 `,
             }}
           />
-          
+
 
           {config.appearance === 'auto'
             ? (
